@@ -18,9 +18,25 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 </script>
 <link rel='stylesheet' id='astra-theme-css-css' href='https://lavenderblush-aardvark-237508.hostingersite.com/wp-content/themes/astra/assets/css/minified/main.min.css?ver=4.7.1' media='all' />
 <link rel='stylesheet' id='astra-google-fonts-css' href='https://fonts.googleapis.com/css?family=Montserrat%3A400%2C%2C700%2C800%7CStaatliches%3A400&#038;display=fallback&#038;ver=4.7.1' media='all' />
-<style id='wp-emoji-styles-inline-css'>
 
-</style>
+<?php
+/**
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
+ *
+ * @package WordPress
+ */
+
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define( 'WP_USE_THEMES', true );
+
+/** Loads the WordPress Environment and Template */
+require __DIR__ . '/wp-blog-header.php';
+?>
 
 <link rel='stylesheet' id='elementor-frontend-css' href='https://lavenderblush-aardvark-237508.hostingersite.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.22.1' media='all' />
 <link rel='stylesheet' id='swiper-css' href='https://lavenderblush-aardvark-237508.hostingersite.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' media='all' />
